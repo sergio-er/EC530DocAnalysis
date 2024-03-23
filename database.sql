@@ -1,3 +1,5 @@
+-- this are some sample tables for an actual db implementation
+
 CREATE TABLE users (
     id SERIAL PRIMARY KEY,
     username VARCHAR(255) UNIQUE NOT NULL,
